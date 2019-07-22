@@ -1,2 +1,131 @@
-/* Scss Document */
+// Scss Document
+//@import 'fonts.css';
 
+@mixin SchemeRg-503 {
+	font-family: SchemeRg;
+ 	//font-size: 5.03px;
+ 	font-size: 46px;
+	font-weight: 400;
+	//line-height: 14.693px;
+	//transform: scale(9.152,9.152);
+}
+@mixin SchemeRg-595 {
+	font-family: SchemeRg;
+	//font-size: 5.95px;
+	font-size: 26px;
+	font-weight: 700;
+	//line-height: 5.946px;
+	line-height: 26px;
+	//transform: scale(4.373,4.373);
+}
+@mixin SchemeBk-22 {
+	font-family: SchemeBk;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 37px;
+}
+@mixin SchemeRg-366 {
+	font-family: SchemeRg;	
+	//font-size: 3.66px;
+	font-size: 16px;
+	font-weight: 700;
+	//line-height: 6.174px;
+	line-height: 27px;
+	//transform: scale(4.373,4.373);
+}
+@mixin SchemeRg-12 {
+	font-family: SchemeRg;
+	//font-size: 3.66px;
+	font-size: 16px;
+	font-weight: 700;
+	//line-height: 6.174px;
+	line-height: 27px;
+	//transform: scale(4.373,4.373);
+}
+@mixin SchemeLt-12 {
+	font-family: SchemeLt;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+}
+@mixin SchemeBk-12 {
+	font-family: SchemeBk;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14px;
+}
+.content-block {
+	padding: 33px 56px 36px 67px;
+	background-color: #f8f8f8;
+	margin-bottom: 29px;
+}
+.title-block {	
+	color: #ffc10e;
+	@include SchemeRg-503;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 100px 0 43px;
+}
+.persone-name {
+	color: rgba(120, 120, 120, 0.9);
+	@include SchemeRg-595;
+	padding-bottom: 34px;
+}
+.persone-description {
+	color: #787878;
+	@include SchemeBk-22;
+}
+.persone-contact {
+	color: #787878;
+	@include SchemeBk-22;
+	text-align: center;
+	a {
+		color: #787878;
+		&:hover {
+			color: #ffc10e;
+			text-decoration: none;
+		}
+	}
+}
+.persone-title {
+	@include SchemeBk-22;
+	text-align: center;
+	a {
+		color: #787878;
+		&:hover {
+			color: #ffc10e;
+		}
+	}
+}
+.img-fluid {
+	padding-bottom: 30px;
+}
+//footer
+.footer {
+	background-color: #e2e2e2;
+	padding: 36px 0 33px 0;
+}
+.footer-text {
+	@include SchemeBk-12;
+	color: #858585;
+	padding-bottom: 6px;
+	&:hover {
+		color: #858585;
+		text-decoration: none !important;
+	}
+}
+.footer-title {
+	color: #858585;
+	@include SchemeRg-12;
+}
+.footer-soc {
+	padding-right: 8px;
+}
+.footer-bottom {
+	color: #858585;
+	@include SchemeLt-12;
+	a {
+		color: #36baa2;
+		text-decoration: underline;
+	}
+}

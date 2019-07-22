@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'SchemeRg';
+  src: url(../fonts/SchemeRg-Regular.ttf), url(../fonts/SchemeRg-Regular.otf); }
+@font-face {
+  font-family: 'SchemeRg';
+  src: url(../fonts/SchemeRg-Bold.ttf), url(../fonts/SchemeRg-Bold.otf); }
+@font-face {
+  font-family: 'SchemeLt';
+  src: url(../fonts/SchemeLt-Regular.ttf), url(../fonts/SchemeLt-Regular.otf); }
+@font-face {
+  font-family: 'SchemeBk';
+  src: url(../fonts/SchemeBk-Regular.ttf), url(../fonts/SchemeBk-Regular.otf); }
