@@ -1,3 +1,32 @@
+@import url(fonts.css);
+.header {
+  background-color: #36baa2;
+  color: #ffffff;
+  font-family: SchemeRg;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px; }
+  .header .img-style {
+    padding-right: 11px; }
+  .header .text-style {
+    padding-right: 25px; }
+
+.slider-title {
+  font-family: SchemeRg;
+  color: #ffc10e;
+  font-size: 3.06px;
+  font-weight: 700;
+  line-height: 3.278px;
+  transform: scale(9.152, 9.152); }
+
+.slider-text {
+  font-family: SchemeBk;
+  color: #787878;
+  font-size: 17.68px;
+  font-weight: 400;
+  line-height: 29.733px;
+  transform: scale(1.244, 1.244); }
+
 .content-block {
   padding: 33px 56px 36px 67px;
   background-color: #f8f8f8;
@@ -33,7 +62,8 @@
   font-size: 22px;
   font-weight: 400;
   line-height: 37px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 30px; }
   .persone-contact a {
     color: #787878; }
     .persone-contact a:hover {
@@ -45,14 +75,24 @@
   font-size: 22px;
   font-weight: 400;
   line-height: 37px;
-  text-align: center; }
+  text-align: center;
+  padding-top: 30px; }
   .persone-title a {
     color: #787878; }
     .persone-title a:hover {
       color: #ffc10e; }
 
-.img-fluid {
-  padding-bottom: 30px; }
+.content-block-loader {
+  padding-top: 20px;
+  text-align: center; }
+
+.loader-text {
+  color: #787878;
+  font-family: SchemeBk;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 14px; }
 
 .footer {
   background-color: #e2e2e2;
@@ -88,3 +128,5 @@
   .footer-bottom a {
     color: #36baa2;
     text-decoration: underline; }
+  .footer-bottom a:hover {
+    color: red; }
