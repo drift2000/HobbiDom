@@ -1,31 +1,70 @@
 @import url(fonts.css);
-.header {
+.top-menu {
   background-color: #36baa2;
   color: #ffffff;
   font-family: SchemeRg;
   font-size: 14px;
   font-weight: 400;
   height: 40px; }
-  .header .img-style {
+  .top-menu .img-style {
     padding-right: 11px; }
-  .header .text-style {
+  .top-menu .text-style {
     padding-right: 25px; }
+
+.main-menu {
+  background-image: url("/images/header_shape.png");
+  background-position: center center;
+  height: 135px; }
+
+.main-menu-link {
+  font-family: SchemeRg;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #000000 !important;
+  text-transform: uppercase; }
+  .main-menu-link:hover {
+    color: #36baa2 !important; }
 
 .slider-title {
   font-family: SchemeRg;
-  color: #ffc10e;
-  font-size: 3.06px;
+  font-size: 28px;
   font-weight: 700;
-  line-height: 3.278px;
-  transform: scale(9.152, 9.152); }
+  line-height: 30px;
+  color: #ffc10e;
+  padding-bottom: 30px; }
 
 .slider-text {
   font-family: SchemeBk;
-  color: #787878;
-  font-size: 17.68px;
+  font-size: 22px;
   font-weight: 400;
-  line-height: 29.733px;
-  transform: scale(1.244, 1.244); }
+  line-height: 37px;
+  color: #787878; }
+
+.slider-control {
+  padding: 30px 0 54px;
+  height: 60px; }
+
+.carousel-control-prev, .carousel-control-next {
+  width: 70% !important; }
+
+.carousel-control-prev-icon {
+  background-image: url("/images/slider/icon_left.png");
+  height: 60px;
+  width: 60px; }
+  .carousel-control-prev-icon:hover {
+    background-image: url("/images/slider/icon_left_hover.png");
+    height: 60px;
+    width: 60px; }
+
+.carousel-control-next-icon {
+  background-image: url("/images/slider/icon_right.png");
+  height: 60px;
+  width: 60px; }
+  .carousel-control-next-icon:hover {
+    background-image: url("/images/slider/icon_right_hover.png");
+    height: 60px;
+    width: 60px; }
 
 .content-block {
   padding: 33px 56px 36px 67px;
@@ -33,35 +72,35 @@
   margin-bottom: 29px; }
 
 .title-block {
-  color: #ffc10e;
   font-family: SchemeRg;
   font-size: 46px;
   font-weight: 400;
+  color: #ffc10e;
   text-transform: uppercase;
   text-align: center;
   padding: 100px 0 43px; }
 
 .persone-name {
-  color: rgba(120, 120, 120, 0.9);
   font-family: SchemeRg;
   font-size: 26px;
   font-weight: 700;
   line-height: 26px;
+  color: rgba(120, 120, 120, 0.9);
   padding-bottom: 34px; }
 
 .persone-description {
-  color: #787878;
-  font-family: SchemeBk;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 37px; }
-
-.persone-contact {
-  color: #787878;
   font-family: SchemeBk;
   font-size: 22px;
   font-weight: 400;
   line-height: 37px;
+  color: #787878; }
+
+.persone-contact {
+  font-family: SchemeBk;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 37px;
+  color: #787878;
   text-align: center;
   padding-top: 30px; }
   .persone-contact a {
@@ -87,10 +126,10 @@
   text-align: center; }
 
 .loader-text {
-  color: #787878;
   font-family: SchemeBk;
   font-size: 18px;
   font-weight: 400;
+  color: #787878;
   text-transform: uppercase;
   padding-top: 14px; }
 
@@ -110,23 +149,47 @@
     text-decoration: none !important; }
 
 .footer-title {
-  color: #858585;
   font-family: SchemeRg;
   font-size: 16px;
   font-weight: 700;
-  line-height: 27px; }
+  line-height: 27px;
+  color: #858585; }
 
 .footer-soc {
   padding-right: 8px; }
 
 .footer-bottom {
-  color: #858585;
   font-family: SchemeLt;
   font-size: 12px;
   font-weight: 400;
-  line-height: 14px; }
+  line-height: 14px;
+  color: #858585; }
   .footer-bottom a {
     color: #36baa2;
     text-decoration: underline; }
   .footer-bottom a:hover {
     color: red; }
+
+@media screen and (max-width: 768px) {
+  .main-menu {
+    background-image: none;
+    height: auto; }
+
+  .title-block {
+    font-size: 32px;
+    padding: 20px 0 20px; }
+
+  .content-block {
+    padding: 20px 0; }
+
+  .persone-contact {
+    padding-bottom: 20px; }
+
+  .persone-title {
+    padding-bottom: 15px; }
+
+  .footer {
+    padding-bottom: 0; }
+
+  .footer-bottom {
+    padding-top: 15px; } }
